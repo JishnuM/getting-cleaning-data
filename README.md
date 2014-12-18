@@ -5,7 +5,7 @@ This script is for the course project of the [Getting and Cleaning Data course](
 
 ### Script Description
 
-The script handles downloading and extracting of the data before cleaning it according to the following specifications.
+The script handles downloading and extracting of the data before cleaning it according to the following specifications:
 
 * Merges testing and training data to one data set
 * Extracts mean and standard deviation values only for each measurement
@@ -22,11 +22,12 @@ To do this, first the script reads in from the downloaded data.
 
 To find only the values for means and standard deviation values, the feature descriptions are checked for substrings containing mean() or std(), with features containing either substring included.
 
-To obtain the final tidy data set, the aggregate function is utilized.
+To obtain the final tidy data set consisting of means for each variable for each subject and activity combination, the aggregate function is utilized.
 
 ## Codebook
 
 Values are normalized and bounded within [-1,1].
+
 More information can be found by consulting the README.txt included in the downloaded dataset.
 
 Dataset is downloaded from [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
