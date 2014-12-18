@@ -12,6 +12,7 @@ The script handles downloading and extracting of the data before cleaning it acc
 * Uses descriptive activity names for measurements (instead of integer constants)
 * Labels the data with descriptive variable names
 * Creates a separate data set with average of each variable for each activity and subject
+* Writes this new data set to file (in R working directory)
 
 To do this, first the script reads in from the downloaded data.
 
