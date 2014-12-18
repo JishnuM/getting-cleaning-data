@@ -32,7 +32,7 @@ names(subset_x_merged) <- subset_names
 
 ## Descriptive names for activity
 
-y_descr <- sapply(y_merged, function(x) labels$V2[x])
+y_descr <- sapply(y_merged, function(x) y_names$V2[x])
 colnames(y_descr) <- c("ACTIVITY")
 colnames(subjects_merged) <- c("SUBJECT")
 
