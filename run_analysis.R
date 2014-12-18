@@ -46,4 +46,4 @@ final_tidy_data <- aggregate( . ~ SUBJECT + ACTIVITY,
 
 ## Write to file
 
-write.table(final_tidy_data, file="./tidy_data_output.txt")
+write.table(final_tidy_data, file="./tidy_data_output.txt", row.name=FALSE)
